@@ -20,7 +20,7 @@ steps:
       ls -l
 - task: Maven@3
   inputs:
-    mavenPomFile: 'etl-talend-studio-example/poms/pom.xml'
+    mavenPomFile: 'poms/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
