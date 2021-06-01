@@ -19,7 +19,7 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>crypto-utils</artifactId>
-      <version>0.31.10</version>
+      <version>0.31.12</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
