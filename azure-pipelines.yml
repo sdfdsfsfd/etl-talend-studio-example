@@ -27,15 +27,15 @@ steps:
     jdkArchitectureOption: 'x64'
     #publishJUnitResults: true
     #testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'install'
+    goals: 'compile'
 
-- task: Maven@3
-  inputs:
-    mavenPomFile: 'poms/pom.xml'
-    mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.8'
-    jdkArchitectureOption: 'x64'
+#- task: Maven@3
+#  inputs:
+#    mavenPomFile: 'poms/pom.xml'
+#    mavenOptions: '-Xmx3072m'
+#    javaHomeOption: 'JDKVersion'
+#    jdkVersionOption: '1.8'
+#    jdkArchitectureOption: 'x64'
     #publishJUnitResults: true
     #testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'compile'
+#    goals: 'compile'
